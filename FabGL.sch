@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:FabGL-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -132,138 +133,8 @@ Wire Wire Line
 	9400 2100 9400 2800
 Wire Wire Line
 	10100 1500 10100 1800
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 5C779F05
-P 10100 5800
-F 0 "J1" H 10206 5978 50  0000 C CNN
-F 1 "PHX MPT 2.54mm 2pol" H 10450 5350 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 10100 5800 50  0001 C CNN
-F 3 "~" H 10100 5800 50  0001 C CNN
-	1    10100 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR07
-U 1 1 5C779F6C
-P 10400 5950
-F 0 "#PWR07" H 10400 5700 50  0001 C CNN
-F 1 "GND" H 10405 5777 50  0000 C CNN
-F 2 "" H 10400 5950 50  0001 C CNN
-F 3 "" H 10400 5950 50  0001 C CNN
-	1    10400 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR06
-U 1 1 5C779FB8
-P 10400 5650
-F 0 "#PWR06" H 10400 5500 50  0001 C CNN
-F 1 "+5V" H 10415 5823 50  0000 C CNN
-F 2 "" H 10400 5650 50  0001 C CNN
-F 3 "" H 10400 5650 50  0001 C CNN
-	1    10400 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10300 5800 10400 5800
-Wire Wire Line
-	10400 5800 10400 5650
-Wire Wire Line
-	10300 5900 10400 5900
-Wire Wire Line
-	10400 5900 10400 5950
 Wire Notes Line
 	6950 7150 6950 7750
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J4
-U 1 1 5C8F3945
-P 10050 4700
-F 0 "J4" H 10100 4750 50  0000 C CNN
-F 1 "2.54mm 2x04 straight" H 10000 4350 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x04_Pitch2.54mm" H 10050 4700 50  0001 C CNN
-F 3 "~" H 10050 4700 50  0001 C CNN
-	1    10050 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10350 4600 10350 4500
-Wire Wire Line
-	10350 4700 10650 4700
-Wire Wire Line
-	10350 4800 10850 4800
-$Comp
-L power:GND #PWR047
-U 1 1 5C98B933
-P 10550 5000
-F 0 "#PWR047" H 10550 4750 50  0001 C CNN
-F 1 "GND" H 10555 4827 50  0000 C CNN
-F 2 "" H 10550 5000 50  0001 C CNN
-F 3 "" H 10550 5000 50  0001 C CNN
-	1    10550 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10550 5000 10550 4900
-Wire Wire Line
-	10550 4900 10350 4900
-$Comp
-L Connector:Conn_01x02_Male J5
-U 1 1 5CD4C13F
-P 9850 3800
-F 0 "J5" H 9822 3682 50  0000 R CNN
-F 1 "IO16/17" H 9822 3773 50  0000 R CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 9850 3800 50  0001 C CNN
-F 3 "~" H 9850 3800 50  0001 C CNN
-	1    9850 3800
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3V3 #PWR0102
-U 1 1 5CE6F109
-P 10850 4650
-F 0 "#PWR0102" H 10850 4500 50  0001 C CNN
-F 1 "+3V3" H 10865 4823 50  0000 C CNN
-F 2 "" H 10850 4650 50  0001 C CNN
-F 3 "" H 10850 4650 50  0001 C CNN
-	1    10850 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0103
-U 1 1 5CE6F113
-P 10650 4650
-F 0 "#PWR0103" H 10650 4500 50  0001 C CNN
-F 1 "+5V" H 10665 4823 50  0000 C CNN
-F 2 "" H 10650 4650 50  0001 C CNN
-F 3 "" H 10650 4650 50  0001 C CNN
-	1    10650 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 4700 10650 4650
-Wire Wire Line
-	10850 4800 10850 4650
-Text GLabel 9750 4500 0    50   Input ~ 0
-GPB3
-Wire Wire Line
-	10350 4500 9750 4500
-Text GLabel 9750 4600 0    50   Input ~ 0
-GPB4
-Text GLabel 9750 4700 0    50   Input ~ 0
-GPB5
-Text GLabel 9750 4800 0    50   Input ~ 0
-GPB6
-Text GLabel 9750 4900 0    50   Input ~ 0
-GBP7
-Wire Wire Line
-	9750 4600 9850 4600
-Wire Wire Line
-	9750 4700 9850 4700
-Wire Wire Line
-	9750 4800 9850 4800
-Wire Wire Line
-	9750 4900 9850 4900
 $Comp
 L Connector:DB15_Female_HighDensity J6
 U 1 1 5D33AAB9
@@ -900,7 +771,7 @@ Wire Wire Line
 	10350 2100 10000 2100
 Text GLabel 9150 1900 0    50   Input ~ 0
 GREEN_MSB
-Text GLabel 9150 2000 0    50   Input ~ 0
+Text GLabel 9150 2600 0    50   Input ~ 0
 GREEN_LSB
 Text GLabel 10350 2000 2    50   Input ~ 0
 BLUE_MSB
@@ -920,7 +791,7 @@ Text GLabel 10350 2800 2    50   Input ~ 0
 KBD_DAT
 Text GLabel 10350 1400 2    50   Input ~ 0
 PS2_CLK
-Text GLabel 9150 2600 0    50   Input ~ 0
+Text GLabel 9150 2000 0    50   Input ~ 0
 PS2_DAT
 Wire Wire Line
 	9500 2600 9150 2600
